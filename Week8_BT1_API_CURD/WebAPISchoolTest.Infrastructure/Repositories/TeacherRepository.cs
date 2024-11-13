@@ -1,6 +1,4 @@
-﻿using WebAPISchoolTest.Domain.SeedWork;
-
-namespace WebAPISchoolTest.Infrastructure.Repositories
+﻿namespace WebAPISchoolTest.Infrastructure.Repositories
 {
     public class TeacherRepository : ITeacherRepository
     {

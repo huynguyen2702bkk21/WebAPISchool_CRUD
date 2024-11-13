@@ -1,13 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using WebAPISchoolTest.Domain.SeedWork;
-using WebAPISchoolTest.Infrastructure.EntityConfigurations.Classes;
-using WebAPISchoolTest.Infrastructure.EntityConfigurations.Students;
-using WebAPISchoolTest.Infrastructure.EntityConfigurations.Teachers;
-using WebAPISchoolTest.Infrastructure.EntityConfigurations.Users;
-
-
-
-namespace WebAPISchoolTest.Infrastructure
+﻿namespace WebAPISchoolTest.Infrastructure
 {
     public class ApplicationDbContext : DbContext, IUnitOfWork
     {

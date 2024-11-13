@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WebAPISchoolTest.Domain.SeedWork;
-
-namespace WebAPISchoolTest.Domain.AggregateModels.ClassAggregate
+﻿namespace WebAPISchoolTest.Domain.AggregateModels.ClassAggregate
 {
     public interface IClassRepository: IRepository<Class>
     {

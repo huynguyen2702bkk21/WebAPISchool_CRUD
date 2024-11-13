@@ -1,9 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using WebAPISchoolTest.Domain.AggregateModels.StudentAggregate;
-using WebAPISchoolTest.Domain.SeedWork;
-
-namespace WebAPISchoolTest.Domain.AggregateModels.ClassAggregate
+﻿namespace WebAPISchoolTest.Domain.AggregateModels.ClassAggregate
 {
     public class Class : IAggregateRoot // Kế thừa từ IAggregateRoot
     {

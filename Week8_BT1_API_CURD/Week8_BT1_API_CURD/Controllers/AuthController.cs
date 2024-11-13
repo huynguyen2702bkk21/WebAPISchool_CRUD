@@ -1,6 +1,4 @@
-﻿using WebAPISchoolTest.Infrastructure.Repositories;
-
-namespace Week8_BT1_API_CURD.Controllers
+﻿namespace Week8_BT1_API_CURD.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

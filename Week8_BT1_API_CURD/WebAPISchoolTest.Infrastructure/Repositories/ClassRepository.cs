@@ -1,9 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using WebAPISchoolTest.Domain.AggregateModels.ClassAggregate;
-using WebAPISchoolTest.Domain.AggregateModels.StudentAggregate;
-using WebAPISchoolTest.Domain.SeedWork;
-
-namespace WebAPISchoolTest.Infrastructure.Repositories
+﻿namespace WebAPISchoolTest.Infrastructure.Repositories
 {
     public class ClassRepository : IClassRepository
     {

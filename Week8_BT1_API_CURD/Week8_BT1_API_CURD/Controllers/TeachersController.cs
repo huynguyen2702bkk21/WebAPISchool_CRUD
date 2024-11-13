@@ -1,15 +1,8 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using WebAPISchoolTest.Domain.AggregateModels.TeacherAggregate;
-using WebAPISchoolTest.Infrastructure.Repositories;
-
-namespace Week8_BT1_API_CURD.Controllers
+﻿namespace Week8_BT1_API_CURD.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    //[Authorize]
+    [Authorize]
     public class TeachersController : ControllerBase
     {
         private readonly ITeacherRepository _teacherRepository;

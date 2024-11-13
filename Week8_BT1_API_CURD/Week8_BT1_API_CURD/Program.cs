@@ -1,12 +1,4 @@
-﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
-using Microsoft.OpenApi.Models;
-using System.Text;
-using WebAPISchoolTest.Domain.SeedWork;
-using WebAPISchoolTest.Infrastructure.Repositories;
-
-namespace Week8_BT1_API_CURD
+﻿namespace Week8_BT1_API_CURD
 {
     public class Program
     {

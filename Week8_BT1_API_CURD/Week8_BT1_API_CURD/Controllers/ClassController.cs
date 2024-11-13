@@ -1,10 +1,8 @@
-﻿using Microsoft.AspNetCore.Authorization;
-
-namespace Week8_BT1_API_CURD.Controllers
+﻿namespace Week8_BT1_API_CURD.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    //[Authorize]
+    [Authorize]
     public class ClassController : ControllerBase
     {
         private readonly IClassRepository _classRepository;
