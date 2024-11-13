@@ -1,0 +1,6 @@
+@Week8_BT1_API_CURD_HostAddress = http://localhost:5236
+
+GET {{Week8_BT1_API_CURD_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
